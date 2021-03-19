@@ -2,11 +2,6 @@
     background: url(../images/header_bg.png) center/cover no-repeat;
 }
 
-.grid-container {
-    width: 88.24%;
-    margin: 2.1rem auto;
-}
-
 .flex-nav {
     align-items: center;
     justify-content: space-between;
@@ -27,8 +22,7 @@
     margin-left: 3.65rem;
     text-transform: uppercase;
     text-decoration: none;
-    font-size: 1.1rem;
-    
+    font-size: 1.1rem;    
 }
 
 .flex-titlebox{
@@ -67,7 +61,7 @@
     height: 100%;
 }
 
-/* делаем галочку */
+/* делаем галочку (макет слайдера)*/
 .scroll__button-model::after,
 .scroll__button-model::before {
     content: "";

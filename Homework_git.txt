@@ -1,0 +1,6 @@
+
+https://github.com/Ra0611/Homework_git.git
+
+git@github.com:Ra0611/Homework_git.git
+
+gh repo clone Ra0611/Homework_git

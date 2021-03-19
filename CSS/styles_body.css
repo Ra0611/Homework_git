@@ -45,6 +45,11 @@ body {
     max-width: 1700px;
     grid-template-rows: 44.65rem 121.35rem 7.55rem;
 }
+
+.container {
+    width: 88.24%;
+    margin: 2.1rem auto;
+}
 .flex{
     display: flex;
 }
