@@ -1,0 +1,90 @@
+.header {
+    background: url(../images/header_bg.png) center/cover no-repeat;
+}
+
+.grid-container {
+    width: 88.24%;
+    margin: 2.1rem auto;
+}
+
+.flex-nav {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__logo {
+    width: 10.5rem;
+    height: 4rem;
+    background: url(../images/logo.png) center;
+}
+
+.nav__menu {
+    grid-template-columns: repeat(5, max-content);
+    justify-items: end;
+}
+
+.menu-item__link {
+    margin-left: 3.65rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.1rem;
+    
+}
+
+.flex-titlebox{
+    max-height: 650px;
+    padding: 12rem 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titlebox__title{
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 200;
+    letter-spacing: 1.8rem;
+}
+.titlebox__subtitle{
+    margin-top: 2.5rem;
+}
+.titlebox__subtitle-link{
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 1rem;
+}
+.scroll{
+    height: 3.75rem;
+    
+}
+.scroll__button-model{
+    margin: auto;
+    display: block;
+    position: relative;
+    width: 4.3rem;
+    height: 100%;
+}
+
+/* делаем галочку */
+.scroll__button-model::after,
+.scroll__button-model::before {
+    content: "";
+    background: rgb(225, 225, 225);
+    position: absolute;
+    width: 59%;
+    height: 2px;
+}
+
+.scroll__button-model::after {
+    top: 0;
+    right: 0;
+    transform: rotate(-45deg);
+}
+
+.scroll__button-model::before {
+    top: 0;
+    left: 0;
+    transform: rotate(45deg);
+}

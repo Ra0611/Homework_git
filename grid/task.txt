@@ -1,0 +1,11 @@
+выполнить данную сетку,стремиться повторить полностью не стоит,главное - структура.
+
+в процессе не забудьте ,что сперва нужно определять контейнер с display: grid и количество строк и столбцов для грид - элементов внутри контейнера
+
+https://developer.mozilla.org/ru/docs/Web/CSS/grid-template-columns
+https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-rows
+напомню,что количество строк и столбцов задается перечисление их размерности,например, grid-template-columns: 1fr 1fr задаст 2 столбца с равной шириной
+
+
+https://xsltdev.ru/css/grid-template-areas/
+

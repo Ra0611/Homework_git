@@ -1,0 +1,54 @@
+html {
+    font-size: 20px;
+}
+
+@media screen and (max-width:1200px) {
+    html {
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    html {
+        font-size: 17px;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+}
+body {
+    border: 0;
+    font-family: 'Mukta', sans-serif;
+
+}
+
+.grid {
+    display: grid;
+}
+
+.grid-wrapper {
+    max-width: 1700px;
+    grid-template-rows: 44.65rem 121.35rem 7.55rem;
+}
+.flex{
+    display: flex;
+}
+a:hover{
+    color: rgb(248, 69, 69);
+    transition: all 0.5s ease-in-out;
+    }

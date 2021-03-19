@@ -1,0 +1,51 @@
+.grid-main {
+    grid-template-rows: 1577px 850px;
+    background: rgb(108, 171, 209);
+    gap: 10px;
+}
+
+.grid-main__shops {
+    grid-template-areas: [start] "shop1 shop1 shop2" 1fr [row2] [row2] "shop1 shop1 shop3" 1fr [row3] [row3] "shop4 shop5 shop6" 37% [row-end] / repeat(3, 1fr);
+    /* grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr 37%; */
+    background: rgb(36, 140, 204);
+    gap: 10px;
+}
+
+.shops__item_pos1 {
+    grid-area: shop1;
+    grid-row: 1 / 3;
+    grid-column: 1 / 3;
+    background-color: blanchedalmond;
+    border: solid 1px black;
+}
+
+.shops__item_pos2 {
+    grid-area: shop2;
+    background-color: burlywood;
+}
+
+.shops__item_pos3 {
+    grid-area: shop3;
+    background-color: cadetblue;
+}
+
+.shops__item_pos4 {
+    grid-area: shop4;
+    background-color: coral;
+}
+
+.shops__item_pos5 {
+    grid-area: shop5;
+    background-color: darkgoldenrod;
+}
+
+.shops__item_pos6 {
+    grid-area: shop6;
+    background-color: darkgreen;
+}
+
+.grid-main__network {
+    background: rgb(15, 57, 83);
+    gap: 10px;
+}
