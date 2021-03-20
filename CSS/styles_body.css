@@ -31,10 +31,10 @@ html {
     padding: 0;
     color: rgb(255, 255, 255);
 }
+
 body {
     border: 0;
     font-family: 'Mukta', sans-serif;
-
 }
 
 .grid {
@@ -42,6 +42,7 @@ body {
 }
 
 .grid-wrapper {
+    margin: auto;
     max-width: 1700px;
     grid-template-rows: 44.65rem 121.35rem 7.55rem;
 }
@@ -50,10 +51,12 @@ body {
     width: 88.24%;
     margin: 2.1rem auto;
 }
-.flex{
+
+.flex {
     display: flex;
 }
-a:hover{
+
+a:hover {
     color: rgb(248, 69, 69);
     transition: all 0.5s ease-in-out;
-    }
+}
