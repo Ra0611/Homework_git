@@ -1,10 +1,9 @@
-.grid-main {
+.main {
     grid-template-rows: 65% 1fr;
-    /* gap: 30px; */
 }
 
-.grid-main__shops {
-    margin: 3.5rem 4rem;
+.main__shops {
+    padding: 2.5rem 0;
     grid-template-areas: "shop1 shop1 shop2" "shop1 shop1 shop3" "shop4 shop5 shop6";
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr 1fr 37%;
@@ -43,20 +42,10 @@
     background: url(../images/nike.png) center/cover no-repeat;
 }
 
-.grid-main__network {
-    background: rgb(15, 57, 83);
-    gap: 10px;
-}
-
 .shops-col__item {
     font-size: 2rem;
     font-weight: 200;
 }
-
-
-/* .shops-col__item_modific {
-    font-size: 3em;
-} */
 
 .shops-col__item_modific-transparent {
     height: 100%;
@@ -91,6 +80,7 @@
 }
 
 .shops-col__item-title {
+    text-transform: uppercase;
     text-decoration: none;
     display: inline-block;
     width: 16.5rem;
@@ -99,6 +89,52 @@
     letter-spacing: 0.75rem;
     line-height: 1.25;
 }
-.grid-main__network{
-    grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+.main-tiles{
+    position: relative; /*для позиционирования полупрозрачного фона*/
+}
+.grid-main__tiles{
+    width: 100%;
+    height: 100%;
+    grid-template: repeat(2, 1fr) / repeat(4, 1fr);
+}
+.flex-main__tiles-transparent{ /*делаем полупрозрачный фон*/
+    width: 100%;
+    height: 100%;
+    background: rgba(26, 26, 26, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;;
+}
+
+.tiles-title{
+    letter-spacing: 1rem;
+}
+@media screen and (max-width: 1200px){
+    .tiles-title{
+        text-align: center;
+    }
+}
+.tileA{
+    background: url(../images/tiles/tileA.png) center/cover no-repeat;
+}
+.tileB{
+    background: url(../images/tiles/tileB.png) center/cover no-repeat;
+}
+.tileC{
+    background: url(../images/tiles/tileC.png) center/cover no-repeat;
+}
+.tileD{
+    background: url(../images/tiles/tileD.png) center/cover no-repeat;
+}
+.tileE{
+    background: url(../images/tiles/tileE.png) center/cover no-repeat;
+}
+.tileF{
+    background: url(../images/tiles/tileF.png) center/cover no-repeat;
+}
+.tileG{
+    background: url(../images/tiles/tileG.png) center/cover no-repeat;
+}
+.tileH{
+    background: url(../images/tiles/tileH.png) center/cover no-repeat;
 }

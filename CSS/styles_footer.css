@@ -1,0 +1,20 @@
+.row__footer, .menu__footer, .media__footer{
+    justify-content: space-between;
+}
+.menu__footer{
+    width: 66%;
+}
+.copy-logo__footer, .link__footer, .media__footer{
+    color: rgb(26, 26, 26);
+    font-size: 1rem;
+    font-weight: bold;
+}
+.link__footer{
+    text-decoration: none;
+}
+.media__footer{
+    width: 7.25rem;
+}
+.media-icon{
+    height: 1.25rem;
+}

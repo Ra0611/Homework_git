@@ -25,30 +25,7 @@
     font-size: 1.1rem;    
 }
 
-.flex-titlebox{
-    max-height: 650px;
-    padding: 12rem 0;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.titlebox__title{
-    margin: 0;
-    font-size: 3rem;
-    font-weight: 200;
-    letter-spacing: 1.8rem;
-}
-.titlebox__subtitle{
-    margin-top: 2.5rem;
-}
-.titlebox__subtitle-link{
-    text-transform: uppercase;
-    text-decoration: none;
-    margin-top: 1.5rem;
-    font-size: 1.5rem;
-    font-weight: bold;
-    letter-spacing: 1rem;
-}
+
 .scroll{
     height: 3.75rem;
     
@@ -82,3 +59,5 @@
     left: 0;
     transform: rotate(45deg);
 }
+
+
