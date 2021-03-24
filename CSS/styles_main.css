@@ -75,7 +75,7 @@
     background: url(../images/nike.png) center/cover no-repeat;
 
 }
-/*выравниваем отцентрованные картинки фонов по верхнему краю*/
+/*выравниваем отцентрованные картинки фонов по верхнему краю (иначе при уменьшении вьюпорта смотрится не красиво)*/
 @media screen and (max-width: 1310px){
     .item_positioned{
         background-position: top;
@@ -219,7 +219,6 @@
 }
 @media screen and (max-width: 992px){
     .grid-main__tiles{
-        /* width: 100%; */
         height: 100%;
         grid-template: repeat(3, 1fr) / repeat(3, 1fr);
     }

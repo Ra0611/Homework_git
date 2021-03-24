@@ -3,6 +3,7 @@
 }
 
 .flex-nav {
+    margin-top: 30px;
     align-items: center;
     justify-content: space-between;
 }
@@ -11,18 +12,24 @@
     width: 10.5rem;
     height: 4rem;
     background: url(../images/logo.png) center;
-}
-
-.nav__menu {
-    grid-template-columns: repeat(5, max-content);
-    justify-items: end;
+    background-size: contain;
 }
 
 .menu-item__link {
-    margin-left: 3.65rem;
     text-transform: uppercase;
     text-decoration: none;
     font-size: 1.1rem;
+}
+
+@media screen and (max-width:768px) {
+    .flex-nav {
+        width: 88%;
+        z-index: 5;
+    }
+    .menu-item__link {
+        font-size: 2rem;
+        color: black;
+    }
 }
 
 .scroll {

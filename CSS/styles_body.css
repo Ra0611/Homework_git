@@ -10,19 +10,25 @@ html {
 
 @media screen and (max-width:1200px) {
     html {
-        font-size: 17px;
+        font-size: 16px;
     }
 }
 
 @media screen and (max-width:992px) {
     html {
-        font-size: 16px;
+        font-size: 14px;
     }
 }
 
 @media screen and (max-width:768px) {
     html {
-        font-size: 15px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:567px) {
+    html {
+        font-size: 10px;
     }
 }
 
@@ -47,20 +53,22 @@ body {
     grid-template-rows: 44.65rem 121.35rem 7.55rem;
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:768px) {
     .grid-wrapper {
         grid-template-rows: 44.65rem 200rem 1fr;
     }
 }
-.container{
+
+.container {
     margin: 0 auto;
     width: 88.65%;
 }
+
 .flex {
     display: flex;
 }
 
-.flex-titlebox{
+.flex-titlebox {
     margin: auto;
     padding: 12rem 0;
     flex-direction: column;
@@ -68,20 +76,31 @@ body {
     align-items: center;
 }
 
-.titlebox__title{
-    margin: 0;
+@media screen and (max-width:768px) {
+    .flex-titlebox {
+        width: 80vw;
+    }
+}
+
+.titlebox__title {
     font-size: 3rem;
     font-weight: 200;
     letter-spacing: 1.8rem;
     text-transform: uppercase;
 }
 
-.titlebox__subtitle{
+@media screen and (max-width:768px) {
+    .titlebox__title {
+        letter-spacing: 1rem;
+    }
+}
+
+.titlebox__subtitle {
     margin-top: 2.5rem;
     text-transform: uppercase;
 }
 
-.titlebox__subtitle-link{
+.titlebox__subtitle-link {
     text-transform: uppercase;
     text-decoration: none;
     margin-top: 1.5rem;

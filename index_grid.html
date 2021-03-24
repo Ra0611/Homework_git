@@ -10,42 +10,49 @@
     <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="CSS/styles_footer.css">
     <link rel="stylesheet" href="CSS/styles_main.css">
+    <link rel="stylesheet" href="CSS/style_burger.css">
     <link rel="stylesheet" href="CSS/styles_header.css">
     <link rel="stylesheet" href="CSS/styles_body.css">
-
 </head>
 
 <body>
     <div class="grid grid-wrapper">
 
-        <div class="header">
+        <header class="header">
             <div class="container">
-                <div class="flex flex-nav">
+                <nav class="nav flex flex-nav">
                     <div class="nav__logo"></div>
-                    <div class="nav__menu">
-                        <a href="#" class="menu-item__link">mens</a>
-                        <a href="#" class="menu-item__link">womens</a>
-                        <a href="#" class="menu-item__link">brands</a>
-                        <a href="#" class="menu-item__link">sale</a>
-                        <a href="#" class="menu-item__link">news</a>
+                    <div class="burger-wrapper">
+                        <div class=" flex nav__burger">
+                            <span></span><!--необходим для создания трех полос меню-бургер-->
+                        </div>
                     </div>
-                </div>
-                <div class="flex flex-titlebox">
-                    <h2 class="titlebox__title">STÜSSY2014</h2>
-                    <h4 class="titlebox__subtitle"><a href="#" class="titlebox__subtitle-link">SHOP NOW</a></h4>
-                </div>
-                <div class="scroll">
-                    <a href="#footer" class="scroll__button-model"></a>
-                </div>
+                    <div class="nav__menu">
+                        <ul class="nav__list">
+                            <li class="flex nav__item"><a href="#" class="menu-item__link">mens</a></li>
+                            <li class="flex nav__item"><a href="#" class="menu-item__link">womens</a></li>
+                            <li class="flex nav__item"><a href="#" class="menu-item__link">brands</a></li>
+                            <li class="flex nav__item"><a href="#" class="menu-item__link">sale</a></li>
+                            <li class="flex nav__item"><a href="#" class="menu-item__link">news</a></li>
+                        </ul>
+                    </div>
+                </nav>
             </div>
-        </div>
+            <div class="flex flex-titlebox">
+                <h2 class="titlebox__title">STÜSSY2014</h2>
+                <h4 class="titlebox__subtitle"><a href="#" class="titlebox__subtitle-link">SHOP NOW</a></h4>
+            </div>
+            <div class="scroll">
+                <a href="#footer" class="scroll__button-model"></a>
+            </div>
+        </header>
 
-        <div class="grid main">
+        <main class="grid main">
             <div class=" container grid main__shops">
                 <div class="grid shops__item_pos1">
                     <div class="shops-col__item shops-col__item_modific">
                         <div class="flex shops-col__item_modific-transparent">
-                                <img class="shops-col__item-lable" src="images/gourmet_lable.png"><a href="#" class="shops-col__item-title_modific">SHOP GOURMET</a>
+                            <img class="shops-col__item-lable" src="images/gourmet_lable.png"><a href="#" class="shops-col__item-title_modific">SHOP GOURMET</a>
                         </div>
                     </div>
                 </div>
@@ -80,22 +87,22 @@
                 <div class="grid shops__item_pos6 item_positioned">
                     <div class="shops-col__item">
                         <div class="flex shops-col__item_transparent">
-                            <img class="shops-col__item-lable item-lable_nike" src="images/nike_lable.png"><a href="#" class="shops-col__item-title"><span>TECH</span> <span>PACK</span></a>
+                            <img class="shops-col__item-lable item-lable_nike" src="images/nike_lable.png"><a href="#" class="shops-col__item-title">TECH PACK</a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="main-tiles">
                 <div class="grid grid-main__tiles">
-                        <div class="grid-main__tiles-tile tileA"></div>
-                        <div class="grid-main__tiles-tile tileB"></div>
-                        <div class="grid-main__tiles-tile tileC"></div>
-                        <div class="grid-main__tiles-tile tileD"></div>
-                        <div class="grid-main__tiles-tile tileE"></div>
-                        <div class="grid-main__tiles-tile tileF"></div>
-                        <div class="grid-main__tiles-tile tileG"></div>
-                        <div class="grid-main__tiles-tile tileH"></div>
-                        <div class="grid-main__tiles-tile tiles-tile_hidden tileJ"></div>
+                    <div class="grid-main__tiles-tile tileA"></div>
+                    <div class="grid-main__tiles-tile tileB"></div>
+                    <div class="grid-main__tiles-tile tileC"></div>
+                    <div class="grid-main__tiles-tile tileD"></div>
+                    <div class="grid-main__tiles-tile tileE"></div>
+                    <div class="grid-main__tiles-tile tileF"></div>
+                    <div class="grid-main__tiles-tile tileG"></div>
+                    <div class="grid-main__tiles-tile tileH"></div>
+                    <div class="grid-main__tiles-tile tiles-tile_hidden tileJ"></div>
                 </div>
                 <div class="flex flex-main__tiles-transparent">
                     <div class="flex flex-titlebox">
@@ -104,9 +111,9 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </main>
 
-        <div class="footer" id="footer">
+        <footer class="footer" id="footer"><!--id нужен для прикрепления якоря ссылки scrol в header-->
             <div class="flex container container__footer">
                 <div class="flex row__footer">
                     <div class="flex menu__footer">
@@ -124,8 +131,10 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </footer>
     </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="JS/script.js"></script>
 </body>
 
 </html>
